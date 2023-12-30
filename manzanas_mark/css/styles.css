@@ -222,7 +222,7 @@ button[type="comment"]:hover {
   bottom: -0.5em;
 }
 
-.right_triangle_container {
+.right-triangle-container {
   width: 0;
   height: 0;
   border-left: 0 solid transparent;
@@ -236,3 +236,12 @@ button[type="comment"]:hover {
   text-align: left;
   color: #fff;
 }
+
+li.github a {
+    background-color: #00FF00 !important;
+    transition: background-color 0.3s;
+  }
+  
+  li.github a:hover {
+    background-color: #009900 !important;
+  }
